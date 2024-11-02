@@ -1,0 +1,9 @@
+2024-11-02 10:32:56,961 - INFO - Usando dispositivo: cpu
+2024-11-02 10:32:56,961 - INFO - Cargando datos...
+2024-11-02 10:32:56,962 - ERROR - Error durante la ejecución: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 70, in main
+    train_dataloader, val_dataloader, test_dataloader, dataset = prepare_dataloaders(
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/data_utils.py", line 188, in prepare_dataloaders
+    train_size = int(0.7 * len(texts))
+TypeError: object of type 'NoneType' has no len()

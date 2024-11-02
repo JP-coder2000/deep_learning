@@ -1,0 +1,66 @@
+2024-11-02 10:44:53,362 - INFO - Usando dispositivo: cpu
+2024-11-02 10:44:53,362 - INFO - Cargando textos...
+2024-11-02 10:44:53,366 - INFO - Textos cargados: 3000 artículos
+2024-11-02 10:44:53,366 - INFO - Preparando dataloaders...
+2024-11-02 10:44:53,369 - INFO - Inicializando modelo...
+2024-11-02 10:44:53,431 - INFO - Iniciando entrenamiento desde cero
+2024-11-02 10:44:53,860 - INFO - Iniciando entrenamiento...
+2024-11-02 10:45:08,070 - INFO - Nuevo mejor modelo guardado (val_loss: 5.5246)
+2024-11-02 10:45:08,071 - INFO - 
+Época 1 completada en 14.21s
+2024-11-02 10:45:08,071 - INFO - Train Loss: 7.1934
+2024-11-02 10:45:08,071 - INFO - Val Loss: 5.5246
+2024-11-02 10:45:22,751 - INFO - Nuevo mejor modelo guardado (val_loss: 5.3613)
+2024-11-02 10:45:22,755 - INFO - 
+Época 2 completada en 13.90s
+2024-11-02 10:45:22,755 - INFO - Train Loss: 5.5181
+2024-11-02 10:45:22,755 - INFO - Val Loss: 5.3613
+2024-11-02 10:45:37,066 - INFO - Nuevo mejor modelo guardado (val_loss: 5.3304)
+2024-11-02 10:45:37,067 - INFO - 
+Época 3 completada en 14.06s
+2024-11-02 10:45:37,067 - INFO - Train Loss: 5.4723
+2024-11-02 10:45:37,067 - INFO - Val Loss: 5.3304
+2024-11-02 10:45:51,194 - INFO - Nuevo mejor modelo guardado (val_loss: 5.1937)
+2024-11-02 10:45:51,197 - INFO - 
+Época 4 completada en 13.86s
+2024-11-02 10:45:51,197 - INFO - Train Loss: 5.4198
+2024-11-02 10:45:51,197 - INFO - Val Loss: 5.1937
+2024-11-02 10:46:05,213 - INFO - Nuevo mejor modelo guardado (val_loss: 5.0417)
+2024-11-02 10:46:05,213 - INFO - 
+Época 5 completada en 13.78s
+2024-11-02 10:46:05,213 - INFO - Train Loss: 5.2661
+2024-11-02 10:46:05,213 - INFO - Val Loss: 5.0417
+2024-11-02 10:46:19,486 - INFO - Nuevo mejor modelo guardado (val_loss: 4.9626)
+2024-11-02 10:46:19,487 - INFO - 
+Época 6 completada en 14.04s
+2024-11-02 10:46:19,487 - INFO - Train Loss: 5.1411
+2024-11-02 10:46:19,487 - INFO - Val Loss: 4.9626
+2024-11-02 10:46:33,761 - INFO - Nuevo mejor modelo guardado (val_loss: 4.8380)
+2024-11-02 10:46:33,761 - INFO - 
+Época 7 completada en 13.98s
+2024-11-02 10:46:33,761 - INFO - Train Loss: 5.0435
+2024-11-02 10:46:33,761 - INFO - Val Loss: 4.8380
+2024-11-02 10:46:48,069 - INFO - Nuevo mejor modelo guardado (val_loss: 4.4345)
+2024-11-02 10:46:48,069 - INFO - 
+Época 8 completada en 14.08s
+2024-11-02 10:46:48,069 - INFO - Train Loss: 4.8646
+2024-11-02 10:46:48,069 - INFO - Val Loss: 4.4345
+2024-11-02 10:47:02,079 - INFO - Nuevo mejor modelo guardado (val_loss: 4.1877)
+2024-11-02 10:47:02,079 - INFO - 
+Época 9 completada en 13.78s
+2024-11-02 10:47:02,079 - INFO - Train Loss: 4.6067
+2024-11-02 10:47:02,079 - INFO - Val Loss: 4.1877
+2024-11-02 10:47:16,307 - INFO - Nuevo mejor modelo guardado (val_loss: 4.1259)
+2024-11-02 10:47:16,307 - INFO - 
+Época 10 completada en 13.99s
+2024-11-02 10:47:16,308 - INFO - Train Loss: 4.4650
+2024-11-02 10:47:16,308 - INFO - Val Loss: 4.1259
+2024-11-02 10:47:16,537 - INFO - Realizando evaluación completa...
+2024-11-02 10:47:16,537 - INFO - Using default tokenizer.
+2024-11-02 10:47:27,233 - ERROR - Error durante la ejecución: 'ModelEvaluator' object has no attribute 'generate_text_samples'
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 114, in main
+    metrics = evaluator.evaluate_model(
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/evaluator.py", line 184, in evaluate_model
+    reference_texts, generated_texts = self.generate_text_samples(num_samples=50)
+AttributeError: 'ModelEvaluator' object has no attribute 'generate_text_samples'

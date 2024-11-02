@@ -1,0 +1,77 @@
+2024-11-02 11:19:39,665 - INFO - Usando dispositivo: cpu
+2024-11-02 11:19:39,666 - INFO - Cargando textos...
+2024-11-02 11:19:39,675 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:19:39,675 - INFO - Preparando dataloaders...
+2024-11-02 11:19:39,680 - INFO - Inicializando modelo...
+2024-11-02 11:19:39,739 - INFO - Cargando checkpoint existente...
+2024-11-02 11:19:39,760 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:19:40,243 - INFO - Iniciando entrenamiento...
+2024-11-02 11:19:54,217 - INFO - Nuevo mejor modelo guardado (val_loss: 2.0853)
+2024-11-02 11:19:54,217 - INFO - 
+Época 1 completada en 13.97s
+2024-11-02 11:19:54,217 - INFO - Train Loss: 2.1652
+2024-11-02 11:19:54,217 - INFO - Val Loss: 2.0853
+2024-11-02 11:20:08,297 - INFO - Nuevo mejor modelo guardado (val_loss: 2.0543)
+2024-11-02 11:20:08,300 - INFO - 
+Época 2 completada en 13.71s
+2024-11-02 11:20:08,300 - INFO - Train Loss: 2.1441
+2024-11-02 11:20:08,300 - INFO - Val Loss: 2.0543
+2024-11-02 11:20:22,163 - INFO - Nuevo mejor modelo guardado (val_loss: 2.0210)
+2024-11-02 11:20:22,163 - INFO - 
+Época 3 completada en 13.62s
+2024-11-02 11:20:22,163 - INFO - Train Loss: 2.1059
+2024-11-02 11:20:22,163 - INFO - Val Loss: 2.0210
+2024-11-02 11:20:36,043 - INFO - Nuevo mejor modelo guardado (val_loss: 1.9807)
+2024-11-02 11:20:36,047 - INFO - 
+Época 4 completada en 13.64s
+2024-11-02 11:20:36,047 - INFO - Train Loss: 2.0625
+2024-11-02 11:20:36,047 - INFO - Val Loss: 1.9807
+2024-11-02 11:20:50,047 - INFO - Nuevo mejor modelo guardado (val_loss: 1.9550)
+2024-11-02 11:20:50,050 - INFO - 
+Época 5 completada en 13.77s
+2024-11-02 11:20:50,050 - INFO - Train Loss: 2.0201
+2024-11-02 11:20:50,050 - INFO - Val Loss: 1.9550
+2024-11-02 11:21:03,848 - INFO - Nuevo mejor modelo guardado (val_loss: 1.9196)
+2024-11-02 11:21:03,848 - INFO - 
+Época 6 completada en 13.56s
+2024-11-02 11:21:03,848 - INFO - Train Loss: 1.9877
+2024-11-02 11:21:03,848 - INFO - Val Loss: 1.9196
+2024-11-02 11:21:17,673 - INFO - Nuevo mejor modelo guardado (val_loss: 1.8947)
+2024-11-02 11:21:17,673 - INFO - 
+Época 7 completada en 13.60s
+2024-11-02 11:21:17,673 - INFO - Train Loss: 1.9559
+2024-11-02 11:21:17,673 - INFO - Val Loss: 1.8947
+2024-11-02 11:21:31,553 - INFO - Nuevo mejor modelo guardado (val_loss: 1.8772)
+2024-11-02 11:21:31,553 - INFO - 
+Época 8 completada en 13.59s
+2024-11-02 11:21:31,553 - INFO - Train Loss: 1.9285
+2024-11-02 11:21:31,553 - INFO - Val Loss: 1.8772
+2024-11-02 11:21:45,381 - INFO - Nuevo mejor modelo guardado (val_loss: 1.8673)
+2024-11-02 11:21:45,381 - INFO - 
+Época 9 completada en 13.60s
+2024-11-02 11:21:45,381 - INFO - Train Loss: 1.9109
+2024-11-02 11:21:45,381 - INFO - Val Loss: 1.8673
+2024-11-02 11:21:59,249 - INFO - Nuevo mejor modelo guardado (val_loss: 1.8600)
+2024-11-02 11:21:59,249 - INFO - 
+Época 10 completada en 13.63s
+2024-11-02 11:21:59,249 - INFO - Train Loss: 1.8986
+2024-11-02 11:21:59,249 - INFO - Val Loss: 1.8600
+2024-11-02 11:21:59,476 - INFO - Realizando evaluación completa...
+2024-11-02 11:22:19,504 - INFO - 
+Métricas finales:
+2024-11-02 11:22:19,504 - INFO - Test Perplexity: 2.02
+2024-11-02 11:22:19,504 - INFO - BLEU-4: 0.0046
+2024-11-02 11:22:19,504 - INFO - Overfitting Ratio: 1.2325
+2024-11-02 11:22:19,504 - INFO - Prediction Bias: 85.2633
+2024-11-02 11:22:19,504 - INFO - 
+Generando muestras de texto...
+2024-11-02 11:22:19,558 - INFO - 
+Prompt: En el año 1492,
+2024-11-02 11:22:19,558 - INFO - Generado: En el año de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de
+2024-11-02 11:22:19,638 - INFO - 
+Prompt: La inteligencia artificial
+2024-11-02 11:22:19,638 - INFO - Generado: La inteligencia artificial medida llegó en hermano todavía en de de de de estuvo en de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de
+2024-11-02 11:22:19,704 - INFO - 
+Prompt: Durante la Edad Media,
+2024-11-02 11:22:19,704 - INFO - Generado: Durante la Edad esto cosa después, de de de de importantes abierta de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de de
+2024-11-02 11:22:19,704 - INFO - ¡Entrenamiento y evaluación completados exitosamente!
