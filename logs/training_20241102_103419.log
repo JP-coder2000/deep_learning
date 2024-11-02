@@ -1,0 +1,13 @@
+2024-11-02 10:34:19,165 - INFO - Usando dispositivo: cpu
+2024-11-02 10:34:19,166 - INFO - Cargando textos...
+2024-11-02 10:34:19,171 - INFO - Textos cargados: 3000 artículos
+2024-11-02 10:34:19,171 - INFO - Preparando dataloaders...
+2024-11-02 10:34:19,174 - INFO - Inicializando modelo...
+2024-11-02 10:34:19,230 - INFO - Iniciando entrenamiento desde cero
+2024-11-02 10:34:19,988 - ERROR - Error durante la ejecución: 'Config' object has no attribute 'train_dataloader'
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 103, in main
+    trainer = Trainer(model, config)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/trainer.py", line 33, in __init__
+    self.total_steps = len(config.train_dataloader) * config.NUM_EPOCHS
+AttributeError: 'Config' object has no attribute 'train_dataloader'

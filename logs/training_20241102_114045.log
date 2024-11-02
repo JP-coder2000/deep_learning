@@ -1,0 +1,65 @@
+2024-11-02 11:40:45,810 - INFO - Usando dispositivo: cpu
+2024-11-02 11:40:45,810 - INFO - Cargando textos...
+2024-11-02 11:40:45,818 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:40:45,818 - INFO - Preparando dataloaders...
+2024-11-02 11:40:45,822 - INFO - Inicializando modelo...
+2024-11-02 11:40:45,876 - INFO - Cargando checkpoint existente...
+2024-11-02 11:40:45,885 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:40:46,409 - INFO - Iniciando entrenamiento...
+2024-11-02 11:41:00,501 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6002)
+2024-11-02 11:41:00,503 - INFO - 
+Época 1 completada en 14.09s
+2024-11-02 11:41:00,503 - INFO - Train Loss: 1.5770
+2024-11-02 11:41:00,503 - INFO - Val Loss: 1.6002
+2024-11-02 11:41:14,584 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5885)
+2024-11-02 11:41:14,584 - INFO - 
+Época 2 completada en 13.74s
+2024-11-02 11:41:14,584 - INFO - Train Loss: 1.5794
+2024-11-02 11:41:14,584 - INFO - Val Loss: 1.5885
+2024-11-02 11:41:28,562 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5767)
+2024-11-02 11:41:28,567 - INFO - 
+Época 3 completada en 13.76s
+2024-11-02 11:41:28,567 - INFO - Train Loss: 1.5632
+2024-11-02 11:41:28,567 - INFO - Val Loss: 1.5767
+2024-11-02 11:41:42,548 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5714)
+2024-11-02 11:41:42,548 - INFO - 
+Época 4 completada en 13.72s
+2024-11-02 11:41:42,548 - INFO - Train Loss: 1.5470
+2024-11-02 11:41:42,548 - INFO - Val Loss: 1.5714
+2024-11-02 11:41:56,520 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5481)
+2024-11-02 11:41:56,520 - INFO - 
+Época 5 completada en 13.74s
+2024-11-02 11:41:56,520 - INFO - Train Loss: 1.5325
+2024-11-02 11:41:56,520 - INFO - Val Loss: 1.5481
+2024-11-02 11:42:10,530 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5367)
+2024-11-02 11:42:10,533 - INFO - 
+Época 6 completada en 13.78s
+2024-11-02 11:42:10,533 - INFO - Train Loss: 1.5143
+2024-11-02 11:42:10,533 - INFO - Val Loss: 1.5367
+2024-11-02 11:42:24,721 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5297)
+2024-11-02 11:42:24,725 - INFO - 
+Época 7 completada en 13.88s
+2024-11-02 11:42:24,725 - INFO - Train Loss: 1.5034
+2024-11-02 11:42:24,725 - INFO - Val Loss: 1.5297
+2024-11-02 11:42:38,620 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5206)
+2024-11-02 11:42:38,620 - INFO - 
+Época 8 completada en 13.65s
+2024-11-02 11:42:38,620 - INFO - Train Loss: 1.4892
+2024-11-02 11:42:38,620 - INFO - Val Loss: 1.5206
+2024-11-02 11:42:52,722 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5138)
+2024-11-02 11:42:52,723 - INFO - 
+Época 9 completada en 13.87s
+2024-11-02 11:42:52,723 - INFO - Train Loss: 1.4830
+2024-11-02 11:42:52,723 - INFO - Val Loss: 1.5138
+2024-11-02 11:43:06,689 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5119)
+2024-11-02 11:43:06,689 - INFO - 
+Época 10 completada en 13.72s
+2024-11-02 11:43:06,689 - INFO - Train Loss: 1.4769
+2024-11-02 11:43:06,689 - INFO - Val Loss: 1.5119
+2024-11-02 11:43:06,915 - INFO - Realizando evaluación completa...
+2024-11-02 11:43:06,915 - INFO - Using default tokenizer.
+2024-11-02 11:43:06,915 - ERROR - Error durante la ejecución: ModelEvaluator.evaluate_model() takes from 2 to 3 positional arguments but 4 were given
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 114, in main
+    metrics = evaluator.evaluate_model(train_dataloader, val_dataloader, test_dataloader)
+TypeError: ModelEvaluator.evaluate_model() takes from 2 to 3 positional arguments but 4 were given

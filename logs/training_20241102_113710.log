@@ -1,0 +1,65 @@
+2024-11-02 11:37:10,846 - INFO - Usando dispositivo: cpu
+2024-11-02 11:37:10,847 - INFO - Cargando textos...
+2024-11-02 11:37:10,855 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:37:10,855 - INFO - Preparando dataloaders...
+2024-11-02 11:37:10,860 - INFO - Inicializando modelo...
+2024-11-02 11:37:10,922 - INFO - Cargando checkpoint existente...
+2024-11-02 11:37:10,932 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:37:11,482 - INFO - Iniciando entrenamiento...
+2024-11-02 11:37:25,296 - INFO - Nuevo mejor modelo guardado (val_loss: 1.7022)
+2024-11-02 11:37:25,296 - INFO - 
+Época 1 completada en 13.81s
+2024-11-02 11:37:25,296 - INFO - Train Loss: 1.7133
+2024-11-02 11:37:25,296 - INFO - Val Loss: 1.7022
+2024-11-02 11:37:39,418 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6880)
+2024-11-02 11:37:39,422 - INFO - 
+Época 2 completada en 13.78s
+2024-11-02 11:37:39,422 - INFO - Train Loss: 1.7116
+2024-11-02 11:37:39,422 - INFO - Val Loss: 1.6880
+2024-11-02 11:37:53,355 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6771)
+2024-11-02 11:37:53,355 - INFO - 
+Época 3 completada en 13.69s
+2024-11-02 11:37:53,355 - INFO - Train Loss: 1.6835
+2024-11-02 11:37:53,355 - INFO - Val Loss: 1.6771
+2024-11-02 11:38:07,304 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6513)
+2024-11-02 11:38:07,304 - INFO - 
+Época 4 completada en 13.70s
+2024-11-02 11:38:07,304 - INFO - Train Loss: 1.6648
+2024-11-02 11:38:07,304 - INFO - Val Loss: 1.6513
+2024-11-02 11:38:21,282 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6329)
+2024-11-02 11:38:21,282 - INFO - 
+Época 5 completada en 13.74s
+2024-11-02 11:38:21,282 - INFO - Train Loss: 1.6413
+2024-11-02 11:38:21,282 - INFO - Val Loss: 1.6329
+2024-11-02 11:38:35,182 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6225)
+2024-11-02 11:38:35,182 - INFO - 
+Época 6 completada en 13.66s
+2024-11-02 11:38:35,182 - INFO - Train Loss: 1.6203
+2024-11-02 11:38:35,182 - INFO - Val Loss: 1.6225
+2024-11-02 11:38:49,456 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6107)
+2024-11-02 11:38:49,459 - INFO - 
+Época 7 completada en 13.98s
+2024-11-02 11:38:49,459 - INFO - Train Loss: 1.6027
+2024-11-02 11:38:49,459 - INFO - Val Loss: 1.6107
+2024-11-02 11:39:03,403 - INFO - Nuevo mejor modelo guardado (val_loss: 1.6024)
+2024-11-02 11:39:03,403 - INFO - 
+Época 8 completada en 13.71s
+2024-11-02 11:39:03,403 - INFO - Train Loss: 1.5859
+2024-11-02 11:39:03,403 - INFO - Val Loss: 1.6024
+2024-11-02 11:39:17,546 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5937)
+2024-11-02 11:39:17,550 - INFO - 
+Época 9 completada en 13.91s
+2024-11-02 11:39:17,550 - INFO - Train Loss: 1.5756
+2024-11-02 11:39:17,550 - INFO - Val Loss: 1.5937
+2024-11-02 11:39:31,432 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5896)
+2024-11-02 11:39:31,432 - INFO - 
+Época 10 completada en 13.63s
+2024-11-02 11:39:31,432 - INFO - Train Loss: 1.5661
+2024-11-02 11:39:31,432 - INFO - Val Loss: 1.5896
+2024-11-02 11:39:31,661 - INFO - Realizando evaluación completa...
+2024-11-02 11:39:31,661 - INFO - Using default tokenizer.
+2024-11-02 11:39:31,661 - ERROR - Error durante la ejecución: ModelEvaluator.evaluate_model() got an unexpected keyword argument 'train_dataloader'
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 114, in main
+    metrics = evaluator.evaluate_model(
+TypeError: ModelEvaluator.evaluate_model() got an unexpected keyword argument 'train_dataloader'

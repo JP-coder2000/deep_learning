@@ -1,0 +1,77 @@
+2024-11-02 11:53:29,995 - INFO - Usando dispositivo: cpu
+2024-11-02 11:53:29,995 - INFO - Cargando textos...
+2024-11-02 11:53:30,002 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:53:30,002 - INFO - Preparando dataloaders...
+2024-11-02 11:53:30,006 - INFO - Inicializando modelo...
+2024-11-02 11:53:30,059 - INFO - Cargando checkpoint existente...
+2024-11-02 11:53:30,079 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:53:30,545 - INFO - Iniciando entrenamiento...
+2024-11-02 11:53:44,909 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4656)
+2024-11-02 11:53:44,909 - INFO - 
+Época 1 completada en 14.36s
+2024-11-02 11:53:44,909 - INFO - Train Loss: 1.4227
+2024-11-02 11:53:44,909 - INFO - Val Loss: 1.4656
+2024-11-02 11:53:59,182 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4582)
+2024-11-02 11:53:59,182 - INFO - 
+Época 2 completada en 13.89s
+2024-11-02 11:53:59,182 - INFO - Train Loss: 1.4308
+2024-11-02 11:53:59,182 - INFO - Val Loss: 1.4582
+2024-11-02 11:54:13,440 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4519)
+2024-11-02 11:54:13,443 - INFO - 
+Época 3 completada en 14.04s
+2024-11-02 11:54:13,443 - INFO - Train Loss: 1.4246
+2024-11-02 11:54:13,443 - INFO - Val Loss: 1.4519
+2024-11-02 11:54:27,910 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4399)
+2024-11-02 11:54:27,914 - INFO - 
+Época 4 completada en 14.22s
+2024-11-02 11:54:27,914 - INFO - Train Loss: 1.4142
+2024-11-02 11:54:27,914 - INFO - Val Loss: 1.4399
+2024-11-02 11:54:41,852 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4315)
+2024-11-02 11:54:41,852 - INFO - 
+Época 5 completada en 13.70s
+2024-11-02 11:54:41,852 - INFO - Train Loss: 1.4038
+2024-11-02 11:54:41,853 - INFO - Val Loss: 1.4315
+2024-11-02 11:54:55,817 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4228)
+2024-11-02 11:54:55,817 - INFO - 
+Época 6 completada en 13.73s
+2024-11-02 11:54:55,817 - INFO - Train Loss: 1.3962
+2024-11-02 11:54:55,817 - INFO - Val Loss: 1.4228
+2024-11-02 11:55:09,945 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4212)
+2024-11-02 11:55:09,949 - INFO - 
+Época 7 completada en 13.91s
+2024-11-02 11:55:09,949 - INFO - Train Loss: 1.3876
+2024-11-02 11:55:09,949 - INFO - Val Loss: 1.4212
+2024-11-02 11:55:24,220 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4152)
+2024-11-02 11:55:24,220 - INFO - 
+Época 8 completada en 13.98s
+2024-11-02 11:55:24,220 - INFO - Train Loss: 1.3832
+2024-11-02 11:55:24,220 - INFO - Val Loss: 1.4152
+2024-11-02 11:55:40,287 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4127)
+2024-11-02 11:55:40,291 - INFO - 
+Época 9 completada en 15.83s
+2024-11-02 11:55:40,291 - INFO - Train Loss: 1.3785
+2024-11-02 11:55:40,291 - INFO - Val Loss: 1.4127
+2024-11-02 11:55:55,306 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4103)
+2024-11-02 11:55:55,306 - INFO - 
+Época 10 completada en 14.76s
+2024-11-02 11:55:55,306 - INFO - Train Loss: 1.3761
+2024-11-02 11:55:55,306 - INFO - Val Loss: 1.4103
+2024-11-02 11:55:55,528 - INFO - Realizando evaluación completa...
+2024-11-02 11:56:09,513 - INFO - 
+Métricas finales:
+2024-11-02 11:56:09,513 - INFO - Test Perplexity: 1.20
+2024-11-02 11:56:09,513 - INFO - BLEU-4: 0.0026
+2024-11-02 11:56:09,513 - INFO - Overfitting Ratio: 2.7582
+2024-11-02 11:56:09,513 - INFO - Prediction Bias: 211.8321
+2024-11-02 11:56:09,513 - INFO - 
+Generando muestras de texto...
+2024-11-02 11:56:09,574 - INFO - 
+Prompt: En el año 1492,
+2024-11-02 11:56:09,574 - INFO - Generado: En el año las enero una de la los del las norte es español mayo noviembre la su al del central parroquia provincia ciudad desde es por fue de un la los que se los del gran un del el a sido ser gran solo segundo la un posible esta primer su el
+2024-11-02 11:56:09,640 - INFO - 
+Prompt: La inteligencia artificial
+2024-11-02 11:56:09,640 - INFO - Generado: La inteligencia artificial las del occidental 7 25 norte desde Argentina dos historia capital película The la el su las Los del central edición Es es estadounidense nombre y en segundo de a sido la de fue en segundo Gran del un como conocido y medio tercera primer siglo país no junto C.
+2024-11-02 11:56:09,659 - INFO - 
+Prompt: Durante la Edad Media,
+2024-11-02 11:56:09,659 - INFO - Generado: Durante la Edad enero Universidad noviembre una durante forma más las enero una mayo 8 enero
+2024-11-02 11:56:09,659 - INFO - ¡Entrenamiento y evaluación completados exitosamente!

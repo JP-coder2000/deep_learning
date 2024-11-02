@@ -1,0 +1,11 @@
+{
+  "best_val_loss": 1.6990983565648397,
+  "total_time": 139.36962795257568,
+  "average_epoch_time": 13.67632462978363,
+  "final_train_loss": 1.7024340882445828,
+  "final_val_loss": 1.6990983565648397,
+  "final_train_perplexity": 5.488580703735352,
+  "final_val_perplexity": 5.4697953224182125,
+  "final_train_accuracy": 0.9211900309205233,
+  "final_val_accuracy": 0.9132638864807113
+}

@@ -1,0 +1,16 @@
+2024-11-02 10:39:51,592 - INFO - Usando dispositivo: cpu
+2024-11-02 10:39:51,592 - INFO - Cargando textos...
+2024-11-02 10:39:51,595 - INFO - Textos cargados: 3000 artículos
+2024-11-02 10:39:51,596 - INFO - Preparando dataloaders...
+2024-11-02 10:39:51,598 - INFO - Inicializando modelo...
+2024-11-02 10:39:51,647 - INFO - Iniciando entrenamiento desde cero
+2024-11-02 10:39:52,184 - INFO - Iniciando entrenamiento...
+2024-11-02 10:39:52,337 - ERROR - Error durante la ejecución: 'float' object has no attribute 'backward'
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 107, in main
+    trainer.train(train_dataloader, val_dataloader)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/trainer.py", line 271, in train
+    train_metrics = self.train_epoch(train_dataloader)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/trainer.py", line 125, in train_epoch
+    self.scaler.scale(loss).backward()
+AttributeError: 'float' object has no attribute 'backward'

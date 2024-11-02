@@ -1,0 +1,67 @@
+2024-11-02 11:48:07,838 - INFO - Usando dispositivo: cpu
+2024-11-02 11:48:07,838 - INFO - Cargando textos...
+2024-11-02 11:48:07,849 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:48:07,849 - INFO - Preparando dataloaders...
+2024-11-02 11:48:07,855 - INFO - Inicializando modelo...
+2024-11-02 11:48:07,917 - INFO - Cargando checkpoint existente...
+2024-11-02 11:48:07,938 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:48:08,406 - INFO - Iniciando entrenamiento...
+2024-11-02 11:48:22,467 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5273)
+2024-11-02 11:48:22,468 - INFO - 
+Época 1 completada en 14.06s
+2024-11-02 11:48:22,468 - INFO - Train Loss: 1.4871
+2024-11-02 11:48:22,468 - INFO - Val Loss: 1.5273
+2024-11-02 11:48:36,753 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5162)
+2024-11-02 11:48:36,753 - INFO - 
+Época 2 completada en 13.95s
+2024-11-02 11:48:36,753 - INFO - Train Loss: 1.4907
+2024-11-02 11:48:36,753 - INFO - Val Loss: 1.5162
+2024-11-02 11:48:50,767 - INFO - Nuevo mejor modelo guardado (val_loss: 1.5053)
+2024-11-02 11:48:50,767 - INFO - 
+Época 3 completada en 13.77s
+2024-11-02 11:48:50,767 - INFO - Train Loss: 1.4817
+2024-11-02 11:48:50,767 - INFO - Val Loss: 1.5053
+2024-11-02 11:49:04,762 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4900)
+2024-11-02 11:49:04,762 - INFO - 
+Época 4 completada en 13.76s
+2024-11-02 11:49:04,762 - INFO - Train Loss: 1.4671
+2024-11-02 11:49:04,762 - INFO - Val Loss: 1.4900
+2024-11-02 11:49:18,738 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4838)
+2024-11-02 11:49:18,741 - INFO - 
+Época 5 completada en 13.75s
+2024-11-02 11:49:18,742 - INFO - Train Loss: 1.4540
+2024-11-02 11:49:18,742 - INFO - Val Loss: 1.4838
+2024-11-02 11:49:32,691 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4714)
+2024-11-02 11:49:32,691 - INFO - 
+Época 6 completada en 13.70s
+2024-11-02 11:49:32,691 - INFO - Train Loss: 1.4429
+2024-11-02 11:49:32,691 - INFO - Val Loss: 1.4714
+2024-11-02 11:49:46,866 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4655)
+2024-11-02 11:49:46,869 - INFO - 
+Época 7 completada en 13.88s
+2024-11-02 11:49:46,869 - INFO - Train Loss: 1.4317
+2024-11-02 11:49:46,869 - INFO - Val Loss: 1.4655
+2024-11-02 11:50:00,891 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4576)
+2024-11-02 11:50:00,891 - INFO - 
+Época 8 completada en 13.80s
+2024-11-02 11:50:00,891 - INFO - Train Loss: 1.4256
+2024-11-02 11:50:00,891 - INFO - Val Loss: 1.4576
+2024-11-02 11:50:14,951 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4544)
+2024-11-02 11:50:14,951 - INFO - 
+Época 9 completada en 13.83s
+2024-11-02 11:50:14,951 - INFO - Train Loss: 1.4198
+2024-11-02 11:50:14,951 - INFO - Val Loss: 1.4544
+2024-11-02 11:50:28,952 - INFO - Nuevo mejor modelo guardado (val_loss: 1.4525)
+2024-11-02 11:50:28,952 - INFO - 
+Época 10 completada en 13.77s
+2024-11-02 11:50:28,952 - INFO - Train Loss: 1.4138
+2024-11-02 11:50:28,952 - INFO - Val Loss: 1.4525
+2024-11-02 11:50:29,175 - INFO - Realizando evaluación completa...
+2024-11-02 11:50:29,175 - INFO - Using default tokenizer.
+2024-11-02 11:50:34,625 - ERROR - Error durante la ejecución: 'ModelEvaluator' object has no attribute 'calculate_overfitting_metrics'
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 114, in main
+    metrics = evaluator.evaluate_model(train_dataloader, val_dataloader, test_dataloader)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/evaluator.py", line 284, in evaluate_model
+    overfitting_metrics = self.calculate_overfitting_metrics(train_dataloader, val_dataloader)
+AttributeError: 'ModelEvaluator' object has no attribute 'calculate_overfitting_metrics'

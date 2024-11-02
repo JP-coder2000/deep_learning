@@ -1,0 +1,74 @@
+2024-11-02 11:10:29,340 - INFO - Usando dispositivo: cpu
+2024-11-02 11:10:29,340 - INFO - Cargando textos...
+2024-11-02 11:10:29,350 - INFO - Textos cargados: 3000 artículos
+2024-11-02 11:10:29,351 - INFO - Preparando dataloaders...
+2024-11-02 11:10:29,356 - INFO - Inicializando modelo...
+2024-11-02 11:10:29,417 - INFO - Cargando checkpoint existente...
+2024-11-02 11:10:29,438 - INFO - Checkpoint cargado de época 9
+2024-11-02 11:10:29,918 - INFO - Iniciando entrenamiento...
+2024-11-02 11:10:43,955 - INFO - Nuevo mejor modelo guardado (val_loss: 2.3646)
+2024-11-02 11:10:43,956 - INFO - 
+Época 1 completada en 14.04s
+2024-11-02 11:10:43,956 - INFO - Train Loss: 2.5086
+2024-11-02 11:10:43,956 - INFO - Val Loss: 2.3646
+2024-11-02 11:10:58,287 - INFO - Nuevo mejor modelo guardado (val_loss: 2.3288)
+2024-11-02 11:10:58,291 - INFO - 
+Época 2 completada en 13.96s
+2024-11-02 11:10:58,291 - INFO - Train Loss: 2.4769
+2024-11-02 11:10:58,291 - INFO - Val Loss: 2.3288
+2024-11-02 11:11:13,061 - INFO - Nuevo mejor modelo guardado (val_loss: 2.2763)
+2024-11-02 11:11:13,062 - INFO - 
+Época 3 completada en 14.52s
+2024-11-02 11:11:13,062 - INFO - Train Loss: 2.4240
+2024-11-02 11:11:13,062 - INFO - Val Loss: 2.2763
+2024-11-02 11:11:27,039 - INFO - Nuevo mejor modelo guardado (val_loss: 2.2318)
+2024-11-02 11:11:27,039 - INFO - 
+Época 4 completada en 13.73s
+2024-11-02 11:11:27,039 - INFO - Train Loss: 2.3708
+2024-11-02 11:11:27,039 - INFO - Val Loss: 2.2318
+2024-11-02 11:11:40,932 - INFO - Nuevo mejor modelo guardado (val_loss: 2.1960)
+2024-11-02 11:11:40,935 - INFO - 
+Época 5 completada en 13.67s
+2024-11-02 11:11:40,935 - INFO - Train Loss: 2.3191
+2024-11-02 11:11:40,935 - INFO - Val Loss: 2.1960
+2024-11-02 11:11:54,715 - INFO - Nuevo mejor modelo guardado (val_loss: 2.1598)
+2024-11-02 11:11:54,717 - INFO - 
+Época 6 completada en 13.54s
+2024-11-02 11:11:54,717 - INFO - Train Loss: 2.2744
+2024-11-02 11:11:54,717 - INFO - Val Loss: 2.1598
+2024-11-02 11:12:08,393 - INFO - Nuevo mejor modelo guardado (val_loss: 2.1312)
+2024-11-02 11:12:08,394 - INFO - 
+Época 7 completada en 13.42s
+2024-11-02 11:12:08,394 - INFO - Train Loss: 2.2350
+2024-11-02 11:12:08,394 - INFO - Val Loss: 2.1312
+2024-11-02 11:12:22,371 - INFO - Nuevo mejor modelo guardado (val_loss: 2.1089)
+2024-11-02 11:12:22,374 - INFO - 
+Época 8 completada en 13.68s
+2024-11-02 11:12:22,374 - INFO - Train Loss: 2.2015
+2024-11-02 11:12:22,374 - INFO - Val Loss: 2.1089
+2024-11-02 11:12:36,506 - INFO - Nuevo mejor modelo guardado (val_loss: 2.0899)
+2024-11-02 11:12:36,506 - INFO - 
+Época 9 completada en 13.88s
+2024-11-02 11:12:36,506 - INFO - Train Loss: 2.1754
+2024-11-02 11:12:36,506 - INFO - Val Loss: 2.0899
+2024-11-02 11:12:50,131 - INFO - Nuevo mejor modelo guardado (val_loss: 2.0840)
+2024-11-02 11:12:50,135 - INFO - 
+Época 10 completada en 13.40s
+2024-11-02 11:12:50,135 - INFO - Train Loss: 2.1617
+2024-11-02 11:12:50,135 - INFO - Val Loss: 2.0840
+2024-11-02 11:12:50,356 - INFO - Realizando evaluación completa...
+2024-11-02 11:13:05,701 - ERROR - Error durante la ejecución: Input sequence length (420) exceeds maximum allowed (128)
+Traceback (most recent call last):
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/train.py", line 114, in main
+    metrics = evaluator.evaluate_model(
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/evaluator.py", line 263, in evaluate_model
+    performance_metrics = self.measure_inference_performance(self.dataset.texts[0])
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/evaluator.py", line 147, in measure_inference_performance
+    _ = self.model(input_ids)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/env/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/juanpablocabreraquiroga/Documents/mini_llm_metrics/src/model.py", line 53, in forward
+    raise ValueError(f"Input sequence length ({t}) exceeds maximum allowed ({self.max_seq_length})")
+ValueError: Input sequence length (420) exceeds maximum allowed (128)
