@@ -1,0 +1,100 @@
+2024-11-12 20:38:10,940 - INFO - Usando dispositivo: cpu
+2024-11-12 20:38:10,940 - INFO - Cargando textos...
+2024-11-12 20:38:10,953 - INFO - Textos cargados: 5000 artículos
+2024-11-12 20:38:10,953 - INFO - Preparando dataloaders...
+2024-11-12 20:38:10,964 - INFO - Inicializando modelo...
+2024-11-12 20:38:11,239 - INFO - Iniciando entrenamiento desde cero
+2024-11-12 20:38:11,566 - INFO - Iniciando entrenamiento...
+2024-11-12 20:39:21,774 - INFO - Nuevo mejor modelo guardado (val_loss: 6.3542)
+2024-11-12 20:39:21,775 - INFO - 
+Época 1 completada en 70.21s
+2024-11-12 20:39:21,775 - INFO - Train Loss: 7.9597
+2024-11-12 20:39:21,775 - INFO - Val Loss: 6.3542
+2024-11-12 20:40:28,846 - INFO - Nuevo mejor modelo guardado (val_loss: 6.2802)
+2024-11-12 20:40:28,847 - INFO - 
+Época 2 completada en 66.75s
+2024-11-12 20:40:28,847 - INFO - Train Loss: 6.5390
+2024-11-12 20:40:28,847 - INFO - Val Loss: 6.2802
+2024-11-12 20:41:35,358 - INFO - 
+Época 3 completada en 66.28s
+2024-11-12 20:41:35,359 - INFO - Train Loss: 6.4795
+2024-11-12 20:41:35,359 - INFO - Val Loss: 6.3022
+2024-11-12 20:42:42,156 - INFO - Nuevo mejor modelo guardado (val_loss: 5.9583)
+2024-11-12 20:42:42,157 - INFO - 
+Época 4 completada en 66.56s
+2024-11-12 20:42:42,157 - INFO - Train Loss: 6.3081
+2024-11-12 20:42:42,157 - INFO - Val Loss: 5.9583
+2024-11-12 20:43:50,204 - INFO - Nuevo mejor modelo guardado (val_loss: 5.4028)
+2024-11-12 20:43:50,205 - INFO - 
+Época 5 completada en 67.83s
+2024-11-12 20:43:50,205 - INFO - Train Loss: 5.9760
+2024-11-12 20:43:50,205 - INFO - Val Loss: 5.4028
+2024-11-12 20:44:57,598 - INFO - Nuevo mejor modelo guardado (val_loss: 4.5700)
+2024-11-12 20:44:57,598 - INFO - 
+Época 6 completada en 67.10s
+2024-11-12 20:44:57,598 - INFO - Train Loss: 5.2345
+2024-11-12 20:44:57,598 - INFO - Val Loss: 4.5700
+2024-11-12 20:46:04,220 - INFO - Nuevo mejor modelo guardado (val_loss: 4.1959)
+2024-11-12 20:46:04,220 - INFO - 
+Época 7 completada en 66.40s
+2024-11-12 20:46:04,220 - INFO - Train Loss: 4.6756
+2024-11-12 20:46:04,220 - INFO - Val Loss: 4.1959
+2024-11-12 20:47:10,872 - INFO - Nuevo mejor modelo guardado (val_loss: 3.9670)
+2024-11-12 20:47:10,873 - INFO - 
+Época 8 completada en 66.43s
+2024-11-12 20:47:10,873 - INFO - Train Loss: 4.3556
+2024-11-12 20:47:10,873 - INFO - Val Loss: 3.9670
+2024-11-12 20:48:18,263 - INFO - Nuevo mejor modelo guardado (val_loss: 3.7816)
+2024-11-12 20:48:18,264 - INFO - 
+Época 9 completada en 67.16s
+2024-11-12 20:48:18,264 - INFO - Train Loss: 4.1359
+2024-11-12 20:48:18,264 - INFO - Val Loss: 3.7816
+2024-11-12 20:49:25,266 - INFO - Nuevo mejor modelo guardado (val_loss: 3.6359)
+2024-11-12 20:49:25,266 - INFO - 
+Época 10 completada en 66.78s
+2024-11-12 20:49:25,266 - INFO - Train Loss: 3.9691
+2024-11-12 20:49:25,266 - INFO - Val Loss: 3.6359
+2024-11-12 20:50:32,056 - INFO - Nuevo mejor modelo guardado (val_loss: 3.5451)
+2024-11-12 20:50:32,057 - INFO - 
+Época 11 completada en 66.58s
+2024-11-12 20:50:32,057 - INFO - Train Loss: 3.8445
+2024-11-12 20:50:32,057 - INFO - Val Loss: 3.5451
+2024-11-12 20:51:39,106 - INFO - Nuevo mejor modelo guardado (val_loss: 3.4573)
+2024-11-12 20:51:39,106 - INFO - 
+Época 12 completada en 66.76s
+2024-11-12 20:51:39,106 - INFO - Train Loss: 3.7461
+2024-11-12 20:51:39,106 - INFO - Val Loss: 3.4573
+2024-11-12 20:52:45,932 - INFO - Nuevo mejor modelo guardado (val_loss: 3.3869)
+2024-11-12 20:52:45,933 - INFO - 
+Época 13 completada en 66.62s
+2024-11-12 20:52:45,933 - INFO - Train Loss: 3.6655
+2024-11-12 20:52:45,933 - INFO - Val Loss: 3.3869
+2024-11-12 20:53:52,013 - INFO - Nuevo mejor modelo guardado (val_loss: 3.3408)
+2024-11-12 20:53:52,014 - INFO - 
+Época 14 completada en 65.86s
+2024-11-12 20:53:52,014 - INFO - Train Loss: 3.6043
+2024-11-12 20:53:52,014 - INFO - Val Loss: 3.3408
+2024-11-12 20:54:57,982 - INFO - Nuevo mejor modelo guardado (val_loss: 3.3238)
+2024-11-12 20:54:57,982 - INFO - 
+Época 15 completada en 65.75s
+2024-11-12 20:54:57,982 - INFO - Train Loss: 3.5667
+2024-11-12 20:54:57,982 - INFO - Val Loss: 3.3238
+2024-11-12 20:54:58,202 - INFO - Realizando evaluación completa...
+2024-11-12 20:56:06,224 - INFO - 
+Métricas finales:
+2024-11-12 20:56:06,224 - INFO - Test Perplexity: 9.93
+2024-11-12 20:56:06,224 - INFO - BLEU-4: 0.0056
+2024-11-12 20:56:06,224 - INFO - Overfitting Ratio: 0.9701
+2024-11-12 20:56:06,224 - INFO - Prediction Bias: -806.0982
+2024-11-12 20:56:06,225 - INFO - 
+Generando muestras de texto...
+2024-11-12 20:56:06,401 - INFO - 
+Prompt: En el año 1492,
+2024-11-12 20:56:06,401 - INFO - Generado: En el año origen música inglés político cantante género escrita familia estudio marzo junio Universidad cantante nacional Nacional estadounidense distrito y Internacional capital total enero Nacional Universidad familia junio Internacional y Nacional provincia 1 cerca antes uno es serie diciembre Universidad total estadounidense y familia distrito enero militar político nacional y Nacional español
+2024-11-12 20:56:06,586 - INFO - 
+Prompt: La inteligencia artificial
+2024-11-12 20:56:06,586 - INFO - Generado: La inteligencia artificial música marzo junio familia político género pintor nacional Internacional estadounidense enero español Nacional nacional junio cantante género estudio 2 Universidad distrito político Internacional familia y estadounidense cerca 1 9 uno especie provincia y debut Nacional Internacional político enero capital conocido por y Internacional junio Nacional estadounidense político distrito cantante General
+2024-11-12 20:56:06,765 - INFO - 
+Prompt: Durante la Edad Media,
+2024-11-12 20:56:06,765 - INFO - Generado: Durante la Edad Media, España político distrito y enero Nacional estudio género pintor cantante escrita estadounidense Nacional provincia conocido enero Universidad distrito nacional Internacional pintor político familia estadounidense junio distrito género estudio español Nacional familia distrito estadounidense provincia conocido es julio uno estadounidense distrito político Internacional familia estudio género General político nacional escrita Internacional
+2024-11-12 20:56:06,765 - INFO - ¡Entrenamiento y evaluación completados exitosamente!

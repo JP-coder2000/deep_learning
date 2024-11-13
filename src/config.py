@@ -5,15 +5,15 @@ from pathlib import Path
 class Config:
     def __init__(self):
         # Parámetros existentes
-        self.VOCAB_SIZE = 5000
-        self.EMBEDDING_DIM = 256
+        self.VOCAB_SIZE = 15000
+        self.EMBEDDING_DIM = 512
         self.NUM_HEADS = 4
         self.NUM_LAYERS = 2
         self.MAX_SEQ_LENGTH = 128
         self.DROPOUT = 0.1
-        self.BATCH_SIZE = 32
-        self.NUM_EPOCHS = 10
-        self.NUM_WORKERS = 4
+        self.BATCH_SIZE = 64
+        self.NUM_EPOCHS = 15
+        self.NUM_WORKERS = 8
         
         # Nuevos parámetros para el trainer mejorado
         self.LEARNING_RATE = 3e-4
@@ -45,7 +45,7 @@ class Config:
         self.NUM_WORKERS = 4 if torch.cuda.is_available() else 0
         
         # Parámetros de datos
-        self.NUM_ARTICLES = 1000  # Número de artículos a descargar
+        self.NUM_ARTICLES = 5000  # Número de artículos a descargar
         self.MIN_ARTICLE_LENGTH = 500  # Longitud mínima de artículo
         
         # Parámetros de evaluación

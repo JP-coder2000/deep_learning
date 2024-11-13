@@ -1,0 +1,30 @@
+=== Reporte de Evaluación del Modelo ===
+
+1. Métricas de Calidad:
+   Train Perplexity: 10.86
+   Validation Perplexity: 10.10
+   Test Perplexity: 9.93
+
+2. Métricas de Overfitting:
+   Train Loss: 2.3848
+   Validation Loss: 2.3134
+   Overfitting Ratio: 0.9701
+   Generalization Gap: -0.0714
+
+3. Métricas de Sesgo:
+   Prediction Bias: -806.0982
+   Absolute Bias: 836.4601
+   Bias Variance: 4682761.7866
+   Prediction Variance: 419806.5119
+
+4. BLEU Scores:
+   bleu-1: 0.0708
+   bleu-2: 0.0226
+   bleu-3: 0.0116
+   bleu-4: 0.0056
+
+5. Métricas de Rendimiento:
+   Latencia Media: 5.01ms
+   Desviación Estándar Latencia: 0.29ms
+   Uso de Memoria Medio: 0.00MB
+   Desviación Estándar Memoria: 0.00MB

@@ -1,0 +1,101 @@
+2024-11-12 20:01:18,529 - INFO - Usando dispositivo: cpu
+2024-11-12 20:01:18,529 - INFO - Cargando textos...
+2024-11-12 20:01:18,537 - INFO - Textos cargados: 3000 artículos
+2024-11-12 20:01:18,537 - INFO - Preparando dataloaders...
+2024-11-12 20:01:18,541 - INFO - Inicializando modelo...
+2024-11-12 20:01:18,668 - INFO - Iniciando entrenamiento desde cero
+2024-11-12 20:01:18,934 - INFO - Iniciando entrenamiento...
+2024-11-12 20:01:47,114 - INFO - Nuevo mejor modelo guardado (val_loss: 5.5981)
+2024-11-12 20:01:47,114 - INFO - 
+Época 1 completada en 28.18s
+2024-11-12 20:01:47,114 - INFO - Train Loss: 7.0054
+2024-11-12 20:01:47,114 - INFO - Val Loss: 5.5981
+2024-11-12 20:02:14,728 - INFO - Nuevo mejor modelo guardado (val_loss: 5.3582)
+2024-11-12 20:02:14,728 - INFO - 
+Época 2 completada en 27.23s
+2024-11-12 20:02:14,728 - INFO - Train Loss: 5.5442
+2024-11-12 20:02:14,728 - INFO - Val Loss: 5.3582
+2024-11-12 20:02:44,601 - INFO - Nuevo mejor modelo guardado (val_loss: 5.3319)
+2024-11-12 20:02:44,601 - INFO - 
+Época 3 completada en 29.65s
+2024-11-12 20:02:44,601 - INFO - Train Loss: 5.4831
+2024-11-12 20:02:44,601 - INFO - Val Loss: 5.3319
+2024-11-12 20:03:13,178 - INFO - Nuevo mejor modelo guardado (val_loss: 5.3094)
+2024-11-12 20:03:13,179 - INFO - 
+Época 4 completada en 28.32s
+2024-11-12 20:03:13,179 - INFO - Train Loss: 5.4547
+2024-11-12 20:03:13,179 - INFO - Val Loss: 5.3094
+2024-11-12 20:03:40,526 - INFO - Nuevo mejor modelo guardado (val_loss: 5.1629)
+2024-11-12 20:03:40,527 - INFO - 
+Época 5 completada en 27.12s
+2024-11-12 20:03:40,527 - INFO - Train Loss: 5.4009
+2024-11-12 20:03:40,527 - INFO - Val Loss: 5.1629
+2024-11-12 20:04:08,387 - INFO - Nuevo mejor modelo guardado (val_loss: 5.0282)
+2024-11-12 20:04:08,388 - INFO - 
+Época 6 completada en 27.56s
+2024-11-12 20:04:08,388 - INFO - Train Loss: 5.2512
+2024-11-12 20:04:08,388 - INFO - Val Loss: 5.0282
+2024-11-12 20:04:35,345 - INFO - Nuevo mejor modelo guardado (val_loss: 4.9403)
+2024-11-12 20:04:35,345 - INFO - 
+Época 7 completada en 26.73s
+2024-11-12 20:04:35,346 - INFO - Train Loss: 5.1265
+2024-11-12 20:04:35,346 - INFO - Val Loss: 4.9403
+2024-11-12 20:05:02,576 - INFO - Nuevo mejor modelo guardado (val_loss: 4.5374)
+2024-11-12 20:05:02,576 - INFO - 
+Época 8 completada en 27.00s
+2024-11-12 20:05:02,576 - INFO - Train Loss: 4.9373
+2024-11-12 20:05:02,576 - INFO - Val Loss: 4.5374
+2024-11-12 20:05:29,850 - INFO - Nuevo mejor modelo guardado (val_loss: 4.0605)
+2024-11-12 20:05:29,851 - INFO - 
+Época 9 completada en 27.05s
+2024-11-12 20:05:29,851 - INFO - Train Loss: 4.5460
+2024-11-12 20:05:29,851 - INFO - Val Loss: 4.0605
+2024-11-12 20:05:57,094 - INFO - Nuevo mejor modelo guardado (val_loss: 3.8518)
+2024-11-12 20:05:57,094 - INFO - 
+Época 10 completada en 27.01s
+2024-11-12 20:05:57,094 - INFO - Train Loss: 4.1887
+2024-11-12 20:05:57,094 - INFO - Val Loss: 3.8518
+2024-11-12 20:06:24,385 - INFO - Nuevo mejor modelo guardado (val_loss: 3.6524)
+2024-11-12 20:06:24,385 - INFO - 
+Época 11 completada en 27.07s
+2024-11-12 20:06:24,386 - INFO - Train Loss: 3.9882
+2024-11-12 20:06:24,386 - INFO - Val Loss: 3.6524
+2024-11-12 20:06:52,432 - INFO - Nuevo mejor modelo guardado (val_loss: 3.5257)
+2024-11-12 20:06:52,432 - INFO - 
+Época 12 completada en 27.75s
+2024-11-12 20:06:52,432 - INFO - Train Loss: 3.8134
+2024-11-12 20:06:52,432 - INFO - Val Loss: 3.5257
+2024-11-12 20:07:19,806 - INFO - Nuevo mejor modelo guardado (val_loss: 3.4324)
+2024-11-12 20:07:19,807 - INFO - 
+Época 13 completada en 27.15s
+2024-11-12 20:07:19,807 - INFO - Train Loss: 3.6683
+2024-11-12 20:07:19,807 - INFO - Val Loss: 3.4324
+2024-11-12 20:07:47,082 - INFO - Nuevo mejor modelo guardado (val_loss: 3.3809)
+2024-11-12 20:07:47,082 - INFO - 
+Época 14 completada en 27.05s
+2024-11-12 20:07:47,082 - INFO - Train Loss: 3.5853
+2024-11-12 20:07:47,082 - INFO - Val Loss: 3.3809
+2024-11-12 20:08:14,171 - INFO - Nuevo mejor modelo guardado (val_loss: 3.3563)
+2024-11-12 20:08:14,171 - INFO - 
+Época 15 completada en 26.86s
+2024-11-12 20:08:14,171 - INFO - Train Loss: 3.5394
+2024-11-12 20:08:14,171 - INFO - Val Loss: 3.3563
+2024-11-12 20:08:14,403 - INFO - Realizando evaluación completa...
+2024-11-12 20:08:52,253 - INFO - 
+Métricas finales:
+2024-11-12 20:08:52,253 - INFO - Test Perplexity: 12.48
+2024-11-12 20:08:52,253 - INFO - BLEU-4: 0.0055
+2024-11-12 20:08:52,253 - INFO - Overfitting Ratio: 0.9817
+2024-11-12 20:08:52,253 - INFO - Prediction Bias: -332.7294
+2024-11-12 20:08:52,253 - INFO - 
+Generando muestras de texto...
+2024-11-12 20:08:52,396 - INFO - 
+Prompt: En el año 1492,
+2024-11-12 20:08:52,396 - INFO - Generado: En el año es por en durante como bajo sobre era es en por fue en durante sobre en y como en durante con Es hasta es era sobre fue como es por en para sobre es por y era hasta desde a con como durante por bajo sobre es que también era
+2024-11-12 20:08:52,532 - INFO - 
+Prompt: La inteligencia artificial
+2024-11-12 20:08:52,532 - INFO - Generado: La inteligencia artificial uno nombre es como en durante Es bajo desde sobre como durante hasta era y por es durante como por bajo fue era y durante por es hasta Es como son sobre entre es por y que con desde entre durante por como fue en sobre es fue con para
+2024-11-12 20:08:52,678 - INFO - 
+Prompt: Durante la Edad Media,
+2024-11-12 20:08:52,678 - INFO - Generado: Durante la Edad conocido fue por durante fue era es con Es como sobre era es con bajo en como desde fue sobre en por es durante con desde bajo y por durante hasta con fue por es como y son era en con durante fue con desde como con para por y
+2024-11-12 20:08:52,678 - INFO - ¡Entrenamiento y evaluación completados exitosamente!
