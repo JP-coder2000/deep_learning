@@ -7,8 +7,8 @@ class Config:
         # Parámetros existentes
         self.VOCAB_SIZE = 15000
         self.EMBEDDING_DIM = 512
-        self.NUM_HEADS = 4
-        self.NUM_LAYERS = 2
+        self.NUM_HEADS = 8
+        self.NUM_LAYERS = 4
         self.MAX_SEQ_LENGTH = 128
         self.DROPOUT = 0.1
         self.BATCH_SIZE = 64
